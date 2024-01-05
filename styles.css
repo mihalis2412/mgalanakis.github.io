@@ -1,0 +1,378 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body {
+  background:
+  url('images/Aegina.jpg') no-repeat center top, /* Top background image */
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+
+
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background:  #4682B4; /* Even darker blue background color */
+  border-radius: 10px;
+}
+
+h2 {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li:before {
+  content: "\2022"; /* Add bullet point */
+  color: black; /* Bullet point color */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+
+#social-media {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+#social-media h2 {
+  color: #333;
+}
+
+#social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+#social-media ul li {
+  display: inline-block;
+  margin-right: 45px; /* Increased margin for more space between icons */
+}
+
+#social-media ul li:last-child {
+  margin-right: 0;
+}
+
+#social-media ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 42px; /* Increased font size for bigger icons */
+  transition: transform 0.3s ease; /* Added a smooth transition effect */
+}
+
+#social-media ul li a:hover {
+  color: black;
+  transform: scale(1.2); /* Added a scale effect on hover for a fancier look */
+}
+
+
+
+
+
+
+
+#master-thesis {
+  padding: 20px;
+  background: #eaeaea;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#master-thesis h2 {
+  color: #333;
+}
+
+#master-thesis p {
+  font-style: italic;
+  color: #555;
+}
+
+#master-thesis a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#master-thesis a:hover {
+  color: #e5634d;
+}
+
+
+
+
+
+/* Add this CSS to style the bullets and text horizontally */
+.fancy-list.horizontal-list li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust spacing between bullets and text */
+}
+
+.fancy-list.horizontal-list .bullet {
+  margin-right: 10px; /* Adjust spacing between bullet and text */
+}
+
+/* Styles for horizontal layout */
+.horizontal {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* Add this CSS to create space between subsections */
+.horizontal + .horizontal {
+  margin-left: 25px; /* Adjust the space between the subsections */
+}
+
+
+
+
+
+
+
+
+
+
+ #education {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    #education-info, #bachelors-info {
+      width: 35%; /* Adjust the width as needed */
+      padding: 20px;
+      background-color: #f0f0f0; /* Light background color */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+      margin-bottom: 20px;
+    }
+
+    #education-info h3, #bachelors-info h3 {
+      color: #333; /* Darker text color for the degree title */
+    }
+
+
+
+
+
+/* Gradient background */
+  background: linear-gradient(45deg, #ff9a00, #ff6f61);
+}
+
+
+#education-info, #bachelors-info {
+  /* Existing styles */
+
+  /* Add box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect */
+#education-info:hover, #bachelors-info:hover {
+  transform: translateY(-5px);
+}
+
+
+
+#education-info, #bachelors-info {
+  /* Existing styles */
+
+  /* Add rounded corners */
+  border-radius: 15px;
+}
+
+
+
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-container {
+  width: 45%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #f0f0f0; /* Light background color */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+  margin-bottom: 20px;
+}
+
+.fancy-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fancy-list li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.fancy-list li:before {
+  content: "\2022"; /* Bullet point */
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: 0; /* Adjusted positioning to align properly */
+}
+
+ /* Styles for the professional experience section */
+  #professional-experience {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping to next line */
+  }
+
+  #professional-experience .section-container {
+    width: 100%; /* Full width for each section */
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+
+
+
+
+
+  
+
+
+
+/* Styles for the Skills section */
+#skills {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to next line */
+  justify-content: space-between;
+}
+
+.subsection {
+  width: 30%; /* Adjust the width as needed */
+  padding: 5px;
+  background-color: #f0f0f0; /* Light background color */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow */
+  margin-bottom: 5px;
+}
+
+.subsection h3 {
+  color: #333; /* Darker text color for subsection title */
+}
+
+.subsection ul {
+  list-style-type: none;
+  padding: 5;
+}
+
+.subsection ul li {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.subsection ul li:before {
+  content: "\2022"; /* Bullet point */
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  position: absolute;
+  left: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+   ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      font-size: 18px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+    }
+   
+okay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
